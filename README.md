@@ -17,6 +17,21 @@
 | ![](../gh-pages/galleries/青年正文2024.pdf-3.jpg) | ![](../gh-pages/galleries/青年正文2024-se.pdf-3.jpg) |
 
 
+## 📖 How to use
+
+下载[main.zip](https://github.com/huangjunjie-cs/nsfc-se/archive/refs/heads/main.zip), 解压，
+替换nsfc_se文件夹下的文件到当前目录下，
+
+然后使用
+
+```bash
+xelatex xxx.tex
+bibtex xxx.tex
+xelatex xxx.tex
+xelatex xxx.tex
+```
+即可。
+
 
 ##  ‼️ Statements
 
