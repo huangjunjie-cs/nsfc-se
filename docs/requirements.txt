@@ -3,10 +3,17 @@ ipython
 matplotlib
 numpydoc
 
-myst-parser 
-sphinx-copybutton
-sphinxcontrib-bibtex
+myst_parser[linkify]
+sphinxcontrib-mermaid 
 sphinx_design
+sphinx-copybutton 
+sphinx-comments 
+sphinxemoji
 sphinx_rtd_theme
 
 pdf2image
+
+
+sphinx
+
+
