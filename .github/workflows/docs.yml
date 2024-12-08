@@ -38,8 +38,8 @@ jobs:
             sphinx-build -b html docs build
             mkdir -p build/examples
             mkdir -p build/galleries
-            cp docs/run_demo.sh ./
-            bash run_demo.sh
+            cp docs/make_demo.py ./
+            python3 make_demo.py --src_fpath '青年正文2024.tex' --dst_fpath '青年正文2024-se.tex'
 
         - name: Make example-for-nsfc-se
           uses: xu-cheng/latex-action@v2
