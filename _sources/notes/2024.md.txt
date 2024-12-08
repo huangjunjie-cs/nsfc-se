@@ -21,6 +21,7 @@
 
 
 
+### NSFC
 
 ```{raw} html
 <object
@@ -39,6 +40,8 @@
 </object>
 ```
 
+### NSFC-SE
+
 ```{raw} html
 <object
   data="/nsfc-se/examples/青年正文2024-se.pdf"
@@ -55,11 +58,15 @@
   </p>
 </object>
 
+```
+
 
 
 
 ## 系统提交
 
-小红书: [国自然系统青基申请操作指南](https://xiaohongshu.com/discovery/item/65ddd60d000000000b020c0c)
 
++ [^国自然系统操作指南]
+
+[^国自然系统操作指南]: [小红书](https://xiaohongshu.com/discovery/item/65ddd60d000000000b020c0c)
 
