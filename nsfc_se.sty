@@ -131,8 +131,9 @@
 %段间距
 \setlength{\parskip}{0.1\baselineskip}
 
-% setspace command
-% \setstretch{1.5} % 22 bp / 14 pt = 1.571
+%自动段落的行间距微调
+\usepackage{setspace}
+\setstretch{1.6} % 22 bp / 14 pt = 1.571
 
 %------------------------
 %模版部分
@@ -270,6 +271,14 @@
 \renewcommand {\thefigure}{\arabic{figure}}% {\thesection{}-\arabic{figure}}%修改图号格式
 \renewcommand{\theequation}{\arabic{equation}}
 
+%公式计数器
+\renewcommand{\theequation}
+{\arabic{equation}}%样式：(1)
+%{\thesection{}-\arabic{figure}}%样式：(1.1-1)
+%{\thechapter{}-\arabic{figure}}%样式：(1-1)，注意（一）立项依据里的所有节都是第一章
+%------------------------
+%列表
+%------------------------
 %带圈数字
 %latex自带\textcircled，但是效果很差
 %\usepackage{tikz}
@@ -283,6 +292,13 @@
 %\renewcommand{\labelitemi}{\color{HighLight}\symWingdings\XeTeXglyph153}%第一层
 
 
+\usepackage{enumitem}%有序列表
+\setenumerate[1]{itemsep = 0pt, parsep = 0pt, topsep = 2bp}
+\setitemize[1]{itemsep = -2pt, parsep = 0pt, topsep = 2bp}
+%------------------------
+%程序代码
+%------------------------
+\usepackage{listings}
 %------------------------
 %脚注
 %------------------------
