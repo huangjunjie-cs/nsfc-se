@@ -26,7 +26,7 @@ jobs:
         - name: Install
           uses: actions/setup-python@v4
           with:
-            python-version: '3.10'
+            python-version: '3.12'
 
         - name: Run installation.
           run: |
@@ -46,13 +46,13 @@ jobs:
           with:
             latexmk_use_xelatex: true
             root_file: |
-              青年2024.tex
-              青年2024-se.tex
+              青年正文2024.tex
+              青年正文2024-se.tex
 
         - name: Copy Demo to examples docs
           run: |
-            cp 青年2024.pdf examples/
-            cp 青年2024-se.pdf examples/ 
+            cp 青年正文2024.pdf build/examples/
+            cp 青年正文2024-se.pdf build/examples/ 
 
         - name: Make demo figures
           run: |
